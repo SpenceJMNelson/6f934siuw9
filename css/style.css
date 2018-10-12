@@ -59,8 +59,8 @@ body {
 }
 
 .illo-wrapper {
-  width: 53vh;
-  height: 53vh;
+  width: 50vh;
+  height: 50vh;
   position:relative;
   transform-style:preserve-3d;
   perspective: 9000px;
@@ -75,25 +75,27 @@ body {
 }
 
 .illo-wrapper:nth-child(1) {
-  top:8vh;
+  top:3vh;
   left:20vh;
+  width: 60vh;
+  height: 60vh;
   
 }
 
 .illo-wrapper:nth-child(2) {
-  top:8vh;
+  top:3vh;
   left:90vh;
   
 }
 
 .illo-wrapper:nth-child(3) {
-  top:40vh;
-  left:55vh;
+  top:45vh;
+  left:65vh;
   
 }
 
 .illo-wrapper:nth-child(4) {
-  top:40vh;
+  top:45vh;
   left:130vh;
   
 }
@@ -123,6 +125,12 @@ body {
 background: rgba(245,245,245,0.0);
    box-sizing: border-box;
 
+}
+
+
+.illo-wrapper:nth-child(1) .illo-content{
+  padding:2vh;
+  
 }
 
 .illo-wrapper:nth-child(1) .illo-content h6{
@@ -187,7 +195,7 @@ background: rgba(245,245,245,0.0);
 }
 
 .illo-content svg{
-  width:50%;
+  width:20vh;
   height:auto;
   
 }
