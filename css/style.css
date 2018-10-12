@@ -59,8 +59,8 @@ body {
 }
 
 .illo-wrapper {
-  width:45vh;
-  height:50vh;
+  width: 53vh;
+  height: 53vh;
   position:relative;
   transform-style:preserve-3d;
   perspective: 9000px;
@@ -76,7 +76,7 @@ body {
 
 .illo-wrapper:nth-child(1) {
   top:8vh;
-  left:18vh;
+  left:20vh;
   
 }
 
